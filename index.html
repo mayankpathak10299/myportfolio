@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+   
+   
+   
+    <meta name="theme-color" content="#21695a">
+    <title>Mayank Pathak </title>
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/styles/style-index.css">
+
+    <script src="https://www.google.com/recaptcha/api.js?onload=reCaptchaCallback&render=explicit" async defer></script>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+</head>
+
+
+
+<body  data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <!-- 
+        Sticky Navigation bar 
+    -->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: rgba(0, 0, 0, 0.8); height: 6%;">
+        <div class="container-fluid">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-target="#myNavbar" data-toggle="collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span> 
+                <script>
+                  $(document).click(function (event) {
+                    var clickover = $(event.target);
+                    var $navbar = $(".navbar-collapse");               
+                    var _opened = $navbar.hasClass("in");
+                    if (_opened === true && !clickover.hasClass("navbar-toggle")) {      
+                        $navbar.collapse('hide');
+                    }
+                });
+                </script>
+            </button>
+            <a class="navbar-brand" href="#" style="color: white; font-size: 130%; letter-spacing: 0.4px;"><strong>Mayank Pathak</strong></a>
+
+          </div>
+          <div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+      </nav>    
+    
+    <!-- 
+        Main Content
+     -->
+    <main>
+        <!-- 
+            Main Header/Home
+         -->
+        <section id="header">
+            <header class="profile">
+                <img src="DSC_1032-crop.jpg" alt="Onkar Shaligram's Image" class="profile__image"> 
+                <h1 class="profile__name">Mayank </h1>
+                <h1 class="profile__name">Pathak</h1>
+                <hr>
+                <p class="profile__profession"> <a class="typewrite" data-period="2000" data-type='["Web developer.", "Android developer.", "AI/ML geek.", "UI/UX Designer." ]'>
+                </a></p>
+                
+                <a href="#" class="profile__link">My Resume</a>
+            </header>
+        </section>
+        <!-- 
+            WebSite Content
+         -->
+        <div class="content">
+            <!-- 
+                About Me Section
+             -->
+            <section id="about" class="paddingTop">
+                <h1 class="content__heading">About Me</h1>
+                <hr>
+                <p class="content__para">
+                    Hey, I'm Mayank Pathak, a 19-year-old undergrad, currently living in Bhopal (MP), India. Originally from Mirzapur (UP)  <address></address>, India.
+                </p>
+
+                <p class="content__para">
+                   I am a programmer with intermidiate knowledge of front-end & back-end techniques. I love spending time on fixing little details and optimizing web apps. Also I like working in a team, as you learn faster and much more. As the saying goes: <br> 'Two heads are better than one.!!'.
+                </p>
+
+                <p class="content__para">
+                    I will be earning a degree in Bachelor of Technology in Computer Science from VIT Bhopal University probably in 2023.
+                </p>
+
+               
+            </section>
+            <!-- 
+                Skills Section
+             -->
+            <section id="skills" class="paddingTop">
+                <h1 class="content__heading">My Skills</h1>
+                <hr>
+                <p class="content__para textCenter">The skills that I have gained so far are listed below:</p>
+
+                <div class="flexParent">
+
+                    <figure class="flexParent__skill">
+                        <svg class="logo" viewBox="0 0 128 128">
+                            <use xlink:href="assets/images/svg/svg-sprite.svg#icon-html"></use>
+                        </svg>
+                        <figcaption>HTML5</figcaption>
+                    </figure>
+
+                    <figure class="flexParent__skill">
+                        <svg class="logo" viewBox="0 0 128 128">
+                            <use xlink:href="assets/images/svg/svg-sprite.svg#icon-css"></use>
+                        </svg>
+                        <figcaption>CSS</figcaption>
+                    </figure>
+
+                    <figure class="flexParent__skill">
+                        <svg class="logo" viewBox="0 0 128 128">
+                            <use xlink:href="assets/images/svg/svg-sprite.svg#icon-js"></use>
+                        </svg>
+                        <figcaption>JavaScript</figcaption>
+                    </figure>
+
+                    <figure class="flexParent__skill">
+                        <img src="https://img.icons8.com/color/100/000000/bootstrap.png"/>
+                        <figcaption>Bootstrap</figcaption>
+                    </figure>
+
+                    <figure class="flexParent__skill">
+                       <img class="iicon" src="https://img.icons8.com/color/100/000000/c-plus-plus-logo.png"/>
+                        <figcaption>C++</figcaption>
+                    </figure>
+
+                    <figure class="flexParent__skill">
+                        <img src="https://img.icons8.com/color/100/000000/c-programming.png"/>
+                        <figcaption>C</figcaption>
+                    </figure>
+
+                    <figure class="flexParent__skill">
+                       <img src="https://img.icons8.com/color/100/000000/firebase.png"/>
+                        <figcaption>fireBase</figcaption>
+                    </figure>
+
+                    <figure class="flexParent__skill">
+                        <svg class="logo" viewBox="0 0 128 128">
+                            <use xlink:href="assets/images/svg/svg-sprite.svg#icon-java"></use>
+                        </svg>
+                        <figcaption>Java</figcaption>
+                    </figure>
+
+                    <figure class="flexParent__skill">
+                        <img src="https://img.icons8.com/color/100/000000/flutter.png"/>
+                        <figcaption>Flutter</figcaption>
+                    </figure>
+
+                    <figure class="flexParent__skill">
+                        <img src="https://img.icons8.com/nolan/100/sql.png"/>                      
+                      <figcaption>SQL</figcaption>
+                    </figure>
+
+                    <figure class="flexParent__skill">
+                        <img src="https://img.icons8.com/color/100/000000/git.png"/>
+                        <figcaption>Git</figcaption>
+                    </figure>
+
+                    <figure class="flexParent__skill">
+                        <img src="https://img.icons8.com/color/100/000000/python.png"/>
+                        <figcaption>Python</figcaption>
+                    </figure>
+
+                </div>
+
+                <hr>
+                
+        
+    <script src="assets/scripts/smooth-scroll.polyfills.min.js"></script>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/solid.js" integrity="sha384-Z7p3uC4xXkxbK7/4keZjny0hTCWPXWfXl/mJ36+pW7ffAGnXzO7P+iCZ0mZv5Zt0"
+        crossorigin="anonymous"></script>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/brands.js" integrity="sha384-ZqDZAkGUHrXxm3bvcTCmQWz4lt7QGLxzlqauKOyLwg8U0wYcYPDIIVTbZZXjbfsM"
+        crossorigin="anonymous"></script>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/fontawesome.js" integrity="sha384-juNb2Ils/YfoXkciRFz//Bi34FN+KKL2AN4R/COdBOMD9/sV/UsxI6++NqifNitM"
+        crossorigin="anonymous"></script>
+
+    <script src="assets/scripts/script-index.js" onload="blink();"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="https://carrier.formcarry.com/js/v1.js"></script>
+ 
+
+</body>
+
+</html>
